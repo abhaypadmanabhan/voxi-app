@@ -1,10 +1,10 @@
 # Voxi
 
-**Local hold-to-talk dictation for macOS.** Hold the Fn key, speak, release. Clean text lands at your cursor in about 130 milliseconds, transcribed entirely on-device.
+**Local hold-to-talk dictation for macOS.** Hold the Fn key, speak, release. Clean text lands at your cursor in about 170 milliseconds, transcribed entirely on-device.
 
 [**Download for macOS**](https://github.com/abhaypadmanabhan/voxi-app/releases/latest) · [Website](https://voxi-landing.vercel.app) · [Install & FAQ](https://voxi-landing.vercel.app/faq)
 
-> Public beta. Requires macOS 14+ on Apple Silicon. Notarized by Apple.
+> Public beta. Requires macOS 14 Sonoma or later, Apple Silicon only. All Apple Silicon Macs can upgrade to Sonoma. Notarized by Apple.
 
 ---
 
