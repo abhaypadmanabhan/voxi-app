@@ -20,7 +20,7 @@ Fn down ──► mic capture (16 kHz) ──► Swift ASR sidecar ──► for
             non-activating pill UI    on the Neural Engine     optional LLM pass
 ```
 
-- **App**: pure SwiftUI menu-bar app, 4.8 MB DMG. A non-activating floating pill shows live state without stealing focus from the app you're typing in.
+- **App**: pure SwiftUI menu-bar app, 6.6 MB DMG. A non-activating floating pill shows live state without stealing focus from the app you're typing in.
 - **ASR**: NVIDIA Parakeet TDT 0.6B v2 running on the Apple Neural Engine via [FluidAudio](https://github.com/FluidInference/FluidAudio). No GPU spin-up, ~34 MB idle memory.
 - **Formatting**: deterministic rule formatter by default (instant); optional opt-in LLM pass for tone-aware cleanup. The formatter knows the frontmost app, so dictating into a terminal behaves differently than dictating into an email.
 - **Paste**: synthetic Cmd+V only when an editable text field has focus; otherwise the transcript stays on the clipboard and the pill says so.
@@ -33,7 +33,7 @@ Fn down ──► mic capture (16 kHz) ──► Swift ASR sidecar ──► for
 | Hotkey release → text pasted (p50) | ~130 ms |
 | First utterance after launch | ~65 ms STT (model pre-warmed at startup) |
 | Sidecar idle memory | ~34 MB |
-| App download | 4.8 MB DMG |
+| App download | 6.6 MB DMG |
 
 Everything runs locally. No accounts, no audio upload, no telemetry. [Privacy policy](https://voxi-landing.vercel.app/privacy).
 
